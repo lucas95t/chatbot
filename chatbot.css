@@ -1,0 +1,54 @@
+.topstrip{
+    width:100%;
+    position:fixed;
+    top:0px;
+    height:10%;
+    background-color: #13306A;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Helvetica;
+}
+.topbar{
+    display:block;
+    width:100%;
+    overflow-y: scroll;
+    position:fixed;
+    top:10%;
+    bottom: 15%;
+    font-size: 35px;
+    font-family: Helvetica;
+}
+.rounded-div-bot{
+    display:inline-block;
+    clear:left;
+    max-width:80%;
+    border-radius: 5px;
+    border:solid 1px black;
+    background-color: #13306A;
+    color: white;
+    float:right;
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+}
+.rounded-div{
+    display:inline-block;
+    clear:right;
+    max-width:80%;
+    border-radius: 5px;
+    margin: 10px;
+    padding:5px;
+    border:solid 1px black;
+    background-color: lightgray;
+    float:left;
+}
+.inputbox{
+    outline:none;
+    width:98%;
+    height:8%;
+    position:fixed;
+    bottom:5%;
+    font-size: 35px;
+    font-family: Helvetica;
+}
